@@ -1,0 +1,9 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name":"V-do",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "images/V.png"
+    }
+}

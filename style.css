@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 400px;
+    background-color: rgb(127, 219, 255);
+}
+html{
+    width: 100%;
+}
+.wrapper{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 0 0 20px 20px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+img{
+  height: 100px;
+  position: absolute;
+  left: 0;
+}
+h1{
+    color: rgb(10, 10, 10);
+    padding: 0px;
+    margin-top: 0;
+}
+h4{
+    color: rgb(62, 100, 100);
+}
+.wrapper2{
+    display: flex;
+    text-align: left;
+    width: 360px;
+    padding: 20px;
+}
+input{
+    background-color: bisque;
+    padding: 8px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+#add-task {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  height: 40px;
+  width: 60px;
+  background-color: deepskyblue;
+  padding: 0;
+  outline: 0;
+  margin-left: 40px;
+  border: 2px solid rgb(186, 188, 197);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform .2s;
+}
+#add-task::after,
+#add-task::before {
+  content: "";
+  position: absolute;
+  top: 15%;
+  right: 40%;
+  bottom: 15%;
+  left: 40%;
+  background-color: black;
+  border-radius: 2px;
+  transition: transform .25s;
+}
+#add-task::before {
+  top: 40%;
+  right: 15%;
+  bottom: 40%;
+  left: 15%;
+}
+#add-task:focus::before {
+  transform: rotate(-35deg) translate(7px, 5px);
+  width: 50px;
+  border-radius: 2;
+  background-color: yellow;
+}
+#add-task:focus::after{
+    transform: rotate(-33deg) translate(-5.4px, 5.9px);
+    height: 20px;
+    background-color: yellow;
+}
+#remove-all-task{
+  height: 40px;
+  width: 60px;
+  background-color: deepskyblue;
+  padding: 0;
+  margin-left: 25px;
+  font-size: 20px;
+  outline: 0;
+  border: 2px solid rgb(186, 188, 197);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform .2s;
+}
+#remove-all-task:hover,
+#add-task:hover{
+  background-color: rgb(67, 11, 221);
+  color: white;
+}
+#add-task:hover::after,
+#add-task:hover::before{
+  background-color: white;
+}
+#task li{
+  color: black;
+}
+#task-element li{
+  list-style: none;
+  background-color: rgb(32, 140, 202);
+  color: rgb(155, 247, 36);
+  width: 300px;
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px; 
+  border: 2px solid #fff;
+  border-radius: 4px;
+}
+#task-element li:hover{
+  border: 2px solid #000;
+  background-color: rgb(155, 247, 36);
+  color:rgb(32, 140, 202) ;
+}
