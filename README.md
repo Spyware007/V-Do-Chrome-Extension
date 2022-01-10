@@ -1,15 +1,28 @@
-# V-Do-Chrome-Extension
 
-Its an to-do list simple chrome extension to manage your tasks. 
+# V-Do-Chrome-Extension🚀
 
-# How to use it?
+It's a simple to-do list chrome extension to manage your tasks.🏆
 
-1> Download the source Code and save it on your local machine.
-2>Open Google Chrome Browser and go to settings.
-3>Go to extensions and activate developer mode on chrome (at top right corner).
-4>Now click on Load unpacked on left side of the window!
-5>Search and select the directory where you downloaded the code!
 
-# Built With
+<img src="images/V.png" width='2500' align="center">
 
-HTML.  CSS. Javascript and some chnages in package.json!
+# How to use it?🤔
+
+1.  Download the source Code and save it on your local machine.
+2. Open Google Chrome Browser and go to settings.
+3. Go to extensions and activate developer mode on chrome (at top right corner).
+4. Now click on Load unpacked on left side of the window! 
+5. Search and select the directory where you downloaded the code!
+
+# Technologies used😄
+1. Html5
+2. Css3
+3. Javascript
+4. Json
+
+
+# Sample Screenshots 👀
+
+<img src="images/1.png" width='2500' align="center">
+<img src="images/2.png" width='2500' align="center">
+
