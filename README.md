@@ -27,4 +27,4 @@ It's a simple to-do list chrome extension to manage your tasks.🏆
 <img src="images/2.png" width='1500' align="center">
 
 
-# Leave a star if you like!
+# Leave a 🌟 if you like!
