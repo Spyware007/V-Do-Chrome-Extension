@@ -4,7 +4,7 @@
 It's a simple to-do list chrome extension to manage your tasks.🏆
 
 
-<img src="images/V.png" width='1500' align="center">
+<img src="images/V.png" width='500' height="500" align="center">
 
 # How to use it?🤔
 
